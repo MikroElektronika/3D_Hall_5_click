@@ -1,0 +1,21 @@
+0	1	mikroCFT90x.exe -MSF -DBG -p FT900 -BIN -DL -SSA -O11111114 -fo100 -N"D:\Clicks_git\3D_Hall_5_click\SW\example\c\FT90x\I2C\Click_3DHALL5_FT90x.mcpf9" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for FT90x\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for FT90x\Uses\" -SP"D:\Clicks_git\3D_Hall_5_click\SW\example\c\FT90x\I2C\" -SP"D:\Clicks_git\3D_Hall_5_click\SW\library\HAL\" -SP"D:\Clicks_git\3D_Hall_5_click\SW\library\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for FT90x\Packages\mikroBUS Board Definition API\Uses\" -IP"D:\Clicks_git\3D_Hall_5_click\SW\library\" -IP"D:\Clicks_git\3D_Hall_5_click\SW\library\HAL\" -IP"D:\Clicks_git\3D_Hall_5_click\SW\example\c\FT90x\I2C\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for FT90x\Packages\mikroBUS Board Definition API\Uses\" "Click_3DHALL5_FT90x.c" "__c3dhall5_Driver.c" "__Lib_Delays.emcl" "__Lib_System.emcl" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_GPIO.emcl" "__Lib_CString.emcl" "__Lib_Conversions.emcl" "__Lib_I2C.emcl" "__Lib_UART.emcl" "__Lib_SPI.emcl" "easyft90x_v7_FT900.emcl" "Click_3DHALL5.pld"	 
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 87	123	Compiled Successfully	Click_3DHALL5_FT90x.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 358	123	Compiled Successfully	__c3dhall5_Driver.c
+hint: 323	1164	Variable 'tmp' has been eliminated by optimizer	__c3dhall5_Driver.c
+hint: 34	1164	Variable 'tmp' has been eliminated by optimizer	__c3dhall5_Driver.c
+hint: 89	1164	Variable 'tmp' has been eliminated by optimizer	__c3dhall5_Driver.c
+hint: 143	1164	Variable 'readData' has been eliminated by optimizer	__c3dhall5_Driver.c
+hint: 287	1164	Variable 'deviceID' has been eliminated by optimizer	__c3dhall5_Driver.c
+hint: 303	1164	Variable 'tempData' has been eliminated by optimizer	__c3dhall5_Driver.c
+hint: 304	1164	Variable 'temperature' has been eliminated by optimizer	__c3dhall5_Driver.c
+hint: 332	1164	Variable 'axisData' has been eliminated by optimizer	__c3dhall5_Driver.c
+diagnostics: 0	127	All files Compiled in 78 ms	 
+hint: 0	1144	Used RX: 20 (62%)   Free RX: 12 (38%)	Used RX: 20 (62%)   Free RX: 12 (38%)
+hint: 0	1144	Static RAM (bytes): 409   Dynamic RAM (bytes): 65117	Static RAM (bytes): 409   Dynamic RAM (bytes): 65117
+hint: 0	1144	Used ROM (bytes): 15653 (6%)  Free ROM (bytes): 246491 (94%)	Used ROM (bytes): 15653 (6%)  Free ROM (bytes): 246491 (94%)
+diagnostics: 0	125	Project Linked Successfully	Click_3DHALL5_FT90x.mcpf9
+diagnostics: 0	128	Linked in 125 ms	 
+diagnostics: 0	129	Project 'Click_3DHALL5_FT90x.mcpf9' completed: 266 ms	 
+diagnostics: 0	103	Finished successfully: 31 maj 2018, 13:01:36	Click_3DHALL5_FT90x.mcpf9
